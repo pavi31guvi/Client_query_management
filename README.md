@@ -15,9 +15,6 @@ This project provides role-based dashboards for **Clients** and **Support users*
 - **Query management**
   - Clients submit queries with email, mobile, heading, and description.
   - Support users filter queries by status (`Open`, `Closed`, `All`) and close them.
-- **Data formatting**
-  - Queries displayed with custom codes (`Q0001`, `Q0002`, etc.).
-  - Dates shown in `dd-mm-YYYY` format.
 - **Session handling**
   - Prevents unauthorized access.
   - Clean logout flow.
@@ -90,5 +87,5 @@ streamlit run login.py
      - Filter queries by status (Open, Closed, All).
      - Select and close queries.
      - View updated query status immediately.
-     - Logout clears session state and redirects to login. 
-```
+     - Logout clears session state and redirects to login.
+  
